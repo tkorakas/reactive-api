@@ -7,16 +7,8 @@ export function combineControllers(controllers) {
         next(value) {
           Rx.merge(
             ...controllers.map((controller) => controller(Rx.of(value)))
-          ).subscribe({
-            next(value) {
-              subscriber.next(value);
-            },
-            error(error) {
-              subscriber.error(error);
-            },
-            complete() {
-              subscriber.complete();
-            },
+          ).subscribe((value) => {
+            subscriber.next(value);
           });
         },
         error(error) {

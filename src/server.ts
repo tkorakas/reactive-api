@@ -1,10 +1,9 @@
 import { combineControllers } from "./combineControllers";
-
 import http from "http";
-
-const port = 3000;
 import * as Rx from "rxjs";
+
 const hostname = "127.0.0.1";
+const port = 3000;
 
 const server$ = new Rx.Subject();
 
