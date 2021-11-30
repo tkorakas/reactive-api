@@ -2,13 +2,20 @@
   "name": "reactive-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch './**/*.ts' --exec 'ts-node' src/server.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "xstream": "^11.14.0"
+    "rxjs": "^7.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.11",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
   }
 }
