@@ -12,3 +12,4 @@
 - https://gist.github.com/staltz/868e7e9bc2a7b8c1f754#why-should-i-consider-adopting-rp
 - https://www.cse.chalmers.se/~rjmh/Papers/whyfp.pdf
 - https://stackoverflow.com/a/5878525
+- https://vimeo.com/6631514#
