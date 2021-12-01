@@ -1,4 +1,4 @@
-import * as Rx from "rxjs";
+import * as Rx from 'rxjs';
 
 export function combineControllers(controllers) {
   return function (source) {
