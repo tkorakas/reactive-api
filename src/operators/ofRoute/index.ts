@@ -1,1 +1,1 @@
-export { ofRoute } from './ofRoute'
+export { ofRoute } from './ofRoute';

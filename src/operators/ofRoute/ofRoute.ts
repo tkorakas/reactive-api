@@ -1,4 +1,4 @@
-import { filter } from 'rxjs'
+import { filter } from 'rxjs';
 
 export function ofRoute(url: string) {
     return filter(({req}) => {
